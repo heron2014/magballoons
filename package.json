@@ -4,8 +4,8 @@
   "description": "The Magnetic Put and Party Balloons",
   "main": "lib/start.js",
   "scripts": {
-    "test": "node node_modules/lab/bin/lab -a code -L",
-    "test": "node lib/start.js"
+    "test": "node node_modules/lab/bin/lab -a code  -r lcov -o lcov.info -r console -o stdout",
+    "start": "node lib/start.js"
   },
   "keywords": [
     "magballoon",
